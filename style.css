@@ -13,3 +13,46 @@
     --text-description: #9C9696;
     --font-family: 'Roboto', sans-serif;
   }
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html body {
+    width: 100vw;
+    background-color: var(--background);
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: var(--text-description);
+    margin-bottom: 39px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .cabeca {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .cabeca input {
+    padding: 13px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+
+  }
+
+  .cabeca a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }

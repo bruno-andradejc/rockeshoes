@@ -43,12 +43,12 @@
     align-items: center;
   }
 
+
   .cabeca input {
     padding: 13px;
     border-radius: 4px;
     text-align: center;
     border: none;
-
   }
 
   .cabeca a {
@@ -90,7 +90,7 @@
     font-weight: 700;
   }
 
-  button {
+  #com {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
@@ -122,4 +122,33 @@
 
   .img img {
     border-radius: 10px;
+  }
+
+  .rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #botao {
+    width: 30%;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  #botao img {
+    padding-left: 10px;
+  }
+
+  .rodape a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 700;
+    color: var(--text);
   }
